@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #000000;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+    padding: 100px;
+}
+
+
+h1 {
+    text-align: center;
+    color: #000000;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.container{
+    text-align: center;
+    padding:100px;
+    width: 500px;
+    border-style:solid;
+}
+
+.sumario ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.sumario ul ul {
+    padding-left: 20px;
+}
+
+.sumario li {
+    margin-bottom: 10px;
+}
+
+.sumario a {
+    text-decoration: none;
+    color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    position: relative;
+}
+
+.risco {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background-color: #060606;
+    margin: 0 10px 0 5px; 
+    display: flex;
+}
+
+.numero-pag {
+    font-weight: normal;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.botao-voltar {
+    margin-top: 50px;
+}
+
+.botao-voltar a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid #055478;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.botoes {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.botao-voltar a:hover {
+    background-color: #9b3c75;
+}
+
+.introducao-link {
+    margin-top: 50px;
+}
+
+.introducao-link a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid #055478;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+
+.introducao-link a:hover {
+    background-color: #9b3c75;
+    color: white;
+}
+

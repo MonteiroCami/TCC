@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #000000;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 80px;
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+    font-size: 24px;
+    margin-bottom: 80px;
+}
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+    padding:100px;
+    width: 500px;
+    border-style:solid;
+}
+
+.resumo {
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.palavras-chaves {
+    font-style: italic;
+    border-top: 1px solid #960f0f;
+    padding-top: 20px;
+}
+
+/*.botao-voltar {
+    bottom: 10px;
+}*/
+
+.botao-voltar a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid #055478;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.botao-voltar a:hover {
+    background-color: #9b3c75;
+}
+
+.botoes {
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
+    margin-top: 20px;
+}
+
+.sumario-link a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid #055478;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+
+.sumario-link a:hover {
+    background-color: #9b3c75;
+    color: white;
+}
